@@ -1,0 +1,63 @@
+ <div class="dots-ani1">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d1"></div>
+            <div class="d3"></div>
+            </div>
+            <div class="dots-ani2">
+                <div class="d3"></div>
+                <div class="d2"></div>
+                <div class="d1"></div>
+                </div>
+                <div class="dots-ani3">
+                    <div class="d1"></div>
+                    <div class="d1"></div>
+                    </div>
+                    <div class="dots-ani4">
+                        <div class="d2"></div>
+                        </div>
+
+
+
+.dots-ani1, .dots-ani2, .dots-ani3, .dots-ani4{
+    position:relative;
+    z-index:3;
+   border:1px solid transparent;
+    width:2vh;
+    bottom:43vh;
+    right:-34vh;
+    height:10vh;
+}
+.dots-ani2{
+    height:7vh;
+    bottom:51vh;
+    right:-36vh;
+}
+.dots-ani3{
+    height:5vh;
+    bottom:56vh;
+    right:-38vh;
+}
+.dots-ani4{
+    height:3vh;
+    bottom:59vh;
+    right:-40vh;
+}
+.d1, .d2, .d3, .d4{
+    position:relative;
+    width:1vh;
+    height:1vh;
+    margin-top:1vh;
+    border-radius:100%;
+}
+.d1{
+    border:1px solid black;
+}
+.d2{
+    background:#00C8AF;
+    border:1px solid #00C8AF;
+}
+.d3{
+    background:#EA80FC;
+    border:1px solid #EA80FC;
+}
